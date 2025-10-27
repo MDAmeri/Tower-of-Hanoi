@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPP\Tower of Hanoi.cpp" />
+    <ClCompile Include="Tower of Hanoi CPP\Tower of Hanoi.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -27,6 +27,7 @@
     <ProjectGuid>{c49cc739-24a9-4e85-b61f-7da3e8e1bae3}</ProjectGuid>
     <RootNamespace>TowerofHanoi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Tower of Hanoi CPP</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

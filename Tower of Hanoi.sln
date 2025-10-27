@@ -1,26 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tower of Hanoi", "Tower of Hanoi\Tower of Hanoi.vcxproj", "{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tower of Hanoi CPP", "Tower of Hanoi\Tower of Hanoi.vcxproj", "{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Tower of Hanoi Python", "Tower of Hanoi\Tower of Hanoi Python\Tower of Hanoi Python.pyproj", "{764E73E3-CAF2-452B-B927-59EFE625B342}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Debug|Any CPU.Build.0 = Debug|x64
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Debug|x64.ActiveCfg = Debug|x64
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Debug|x64.Build.0 = Debug|x64
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Debug|x86.ActiveCfg = Debug|Win32
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Debug|x86.Build.0 = Debug|Win32
+		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Release|Any CPU.ActiveCfg = Release|x64
+		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Release|Any CPU.Build.0 = Release|x64
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Release|x64.ActiveCfg = Release|x64
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Release|x64.Build.0 = Release|x64
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Release|x86.ActiveCfg = Release|Win32
 		{C49CC739-24A9-4E85-B61F-7DA3E8E1BAE3}.Release|x86.Build.0 = Release|Win32
+		{764E73E3-CAF2-452B-B927-59EFE625B342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764E73E3-CAF2-452B-B927-59EFE625B342}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{764E73E3-CAF2-452B-B927-59EFE625B342}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{764E73E3-CAF2-452B-B927-59EFE625B342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764E73E3-CAF2-452B-B927-59EFE625B342}.Release|x64.ActiveCfg = Release|Any CPU
+		{764E73E3-CAF2-452B-B927-59EFE625B342}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

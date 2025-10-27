@@ -35,24 +35,32 @@ int main()
 	int D_num;
 	int step = 0;
 	int choice;
-	cout << "\033[1;3;31mPlease enter the number of your disks: \033[0m";
-	cin >> D_num;
-	cout << "\n\033[1;3;34mPlease select your issue type:\033[0m\n\033[3;33m1)\033[0m \033[3mNormal\033[0m \n\033[3;33m2)\033[0m \033[3mNo direct disk transfer from i to j\033[0m \n\033[3;33mOther keys)\033[0m \033[3mExit the program\033[0m \n\033[1;3;32mYour choice:\033[0m ";
-	cin >> choice;
-	if (choice == 1)
+	while (true)
 	{
 		cout << "\033c";
-		cout << "\033[5;4;3;1;33m*******(Normal Hanoi)*******\033[0m\n";
-		Hanoi_Normal(D_num, 1, 3, step);
-	}
-	else if (choice == 2)
-	{
-		cout << "\033c";
-		cout << "\033[5;4;3;1;33m*******(Hanoi No direct transfer)*******\033[0m\n";
-		Hanoi_No_direct_transfer(D_num, 1, 3, step);
-	}
-	else
-	{
-		return 0;
+		cout << "\033[1;3;31mPlease enter the number of your disks: \033[0m";
+		cin >> D_num;
+		cout << "\n\033[1;3;34mPlease select your issue type:\033[0m\n\033[3;33m1)\033[0m \033[3mNormal\033[0m \n\033[3;33m2)\033[0m \033[3mNo direct disk transfer from i to j\033[0m \n\033[3;33mOther keys)\033[0m \033[3mExit the program\033[0m \n\033[1;3;32mYour choice:\033[0m ";
+		cin >> choice;
+		if (choice == 1)
+		{
+			cout << "\033c";
+			cout << "\033[5;4;3;1;33m*******(Normal Hanoi)*******\033[0m\n";
+			Hanoi_Normal(D_num, 1, 3, step);
+			cin.ignore();
+			cin.get();
+		}
+		else if (choice == 2)
+		{
+			cout << "\033c";
+			cout << "\033[5;4;3;1;33m*******(Hanoi No direct transfer)*******\033[0m\n";
+			Hanoi_No_direct_transfer(D_num, 1, 3, step);
+			cin.ignore();
+			cin.get();
+		}
+		else
+		{
+			return 0;
+		}
 	}
 }

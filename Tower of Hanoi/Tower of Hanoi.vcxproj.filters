@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPP\Tower of Hanoi.cpp">
+    <ClCompile Include="Tower of Hanoi CPP\Tower of Hanoi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
