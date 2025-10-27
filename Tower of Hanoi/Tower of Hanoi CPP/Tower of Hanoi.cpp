@@ -33,10 +33,10 @@ void Hanoi_No_direct_transfer(int n, int i, int j, int& step)
 int main()
 {
 	int D_num;
-	int step = 0;
 	int choice;
 	while (true)
 	{
+		int step = 0;
 		cout << "\033c";
 		cout << "\033[1;3;31mPlease enter the number of your disks: \033[0m";
 		cin >> D_num;
@@ -48,6 +48,7 @@ int main()
 			cout << "\033[5;4;3;1;33m*******(Normal Hanoi)*******\033[0m\n";
 			Hanoi_Normal(D_num, 1, 3, step);
 			cin.ignore();
+			cout << "\033[1;5;31mPress Enter to continue...\033[0m";
 			cin.get();
 		}
 		else if (choice == 2)
@@ -56,6 +57,7 @@ int main()
 			cout << "\033[5;4;3;1;33m*******(Hanoi No direct transfer)*******\033[0m\n";
 			Hanoi_No_direct_transfer(D_num, 1, 3, step);
 			cin.ignore();
+			cout << "\033[1;5;31mPress Enter to continue...\033[0m";
 			cin.get();
 		}
 		else
